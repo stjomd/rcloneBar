@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		955AAB042C863BCC00FE577C /* rcloneBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955AAB032C863BCC00FE577C /* rcloneBarApp.swift */; };
+		955AAB062C863BCC00FE577C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955AAB052C863BCC00FE577C /* ContentView.swift */; };
+		955AAB082C863BCD00FE577C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 955AAB072C863BCD00FE577C /* Assets.xcassets */; };
+		955AAB0B2C863BCD00FE577C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 955AAB0A2C863BCD00FE577C /* Preview Assets.xcassets */; };
+		955AAB162C863BCD00FE577C /* rcloneBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955AAB152C863BCD00FE577C /* rcloneBarTests.swift */; };
+		955AAB202C863BCD00FE577C /* rcloneBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955AAB1F2C863BCD00FE577C /* rcloneBarUITests.swift */; };
+		955AAB222C863BCD00FE577C /* rcloneBarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955AAB212C863BCD00FE577C /* rcloneBarUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		955AAB122C863BCD00FE577C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 955AAAF82C863BCC00FE577C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 955AAAFF2C863BCC00FE577C;
+			remoteInfo = rcloneBar;
+		};
+		955AAB1C2C863BCD00FE577C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 955AAAF82C863BCC00FE577C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 955AAAFF2C863BCC00FE577C;
+			remoteInfo = rcloneBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		955AAB002C863BCC00FE577C /* rcloneBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rcloneBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		955AAB032C863BCC00FE577C /* rcloneBarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rcloneBarApp.swift; sourceTree = "<group>"; };
+		955AAB052C863BCC00FE577C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		955AAB072C863BCD00FE577C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		955AAB0A2C863BCD00FE577C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		955AAB0C2C863BCD00FE577C /* rcloneBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = rcloneBar.entitlements; sourceTree = "<group>"; };
+		955AAB112C863BCD00FE577C /* rcloneBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rcloneBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		955AAB152C863BCD00FE577C /* rcloneBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rcloneBarTests.swift; sourceTree = "<group>"; };
+		955AAB1B2C863BCD00FE577C /* rcloneBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rcloneBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		955AAB1F2C863BCD00FE577C /* rcloneBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rcloneBarUITests.swift; sourceTree = "<group>"; };
+		955AAB212C863BCD00FE577C /* rcloneBarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rcloneBarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		955AAAFD2C863BCC00FE577C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		955AAB0E2C863BCD00FE577C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		955AAB182C863BCD00FE577C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		955AAAF72C863BCC00FE577C = {
+			isa = PBXGroup;
+			children = (
+				955AAB022C863BCC00FE577C /* rcloneBar */,
+				955AAB142C863BCD00FE577C /* rcloneBarTests */,
+				955AAB1E2C863BCD00FE577C /* rcloneBarUITests */,
+				955AAB012C863BCC00FE577C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		955AAB012C863BCC00FE577C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				955AAB002C863BCC00FE577C /* rcloneBar.app */,
+				955AAB112C863BCD00FE577C /* rcloneBarTests.xctest */,
+				955AAB1B2C863BCD00FE577C /* rcloneBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		955AAB022C863BCC00FE577C /* rcloneBar */ = {
+			isa = PBXGroup;
+			children = (
+				955AAB032C863BCC00FE577C /* rcloneBarApp.swift */,
+				955AAB052C863BCC00FE577C /* ContentView.swift */,
+				955AAB072C863BCD00FE577C /* Assets.xcassets */,
+				955AAB0C2C863BCD00FE577C /* rcloneBar.entitlements */,
+				955AAB092C863BCD00FE577C /* Preview Content */,
+			);
+			path = rcloneBar;
+			sourceTree = "<group>";
+		};
+		955AAB092C863BCD00FE577C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				955AAB0A2C863BCD00FE577C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		955AAB142C863BCD00FE577C /* rcloneBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				955AAB152C863BCD00FE577C /* rcloneBarTests.swift */,
+			);
+			path = rcloneBarTests;
+			sourceTree = "<group>";
+		};
+		955AAB1E2C863BCD00FE577C /* rcloneBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				955AAB1F2C863BCD00FE577C /* rcloneBarUITests.swift */,
+				955AAB212C863BCD00FE577C /* rcloneBarUITestsLaunchTests.swift */,
+			);
+			path = rcloneBarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		955AAAFF2C863BCC00FE577C /* rcloneBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 955AAB252C863BCD00FE577C /* Build configuration list for PBXNativeTarget "rcloneBar" */;
+			buildPhases = (
+				955AAAFC2C863BCC00FE577C /* Sources */,
+				955AAAFD2C863BCC00FE577C /* Frameworks */,
+				955AAAFE2C863BCC00FE577C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rcloneBar;
+			productName = rcloneBar;
+			productReference = 955AAB002C863BCC00FE577C /* rcloneBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		955AAB102C863BCD00FE577C /* rcloneBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 955AAB282C863BCD00FE577C /* Build configuration list for PBXNativeTarget "rcloneBarTests" */;
+			buildPhases = (
+				955AAB0D2C863BCD00FE577C /* Sources */,
+				955AAB0E2C863BCD00FE577C /* Frameworks */,
+				955AAB0F2C863BCD00FE577C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				955AAB132C863BCD00FE577C /* PBXTargetDependency */,
+			);
+			name = rcloneBarTests;
+			productName = rcloneBarTests;
+			productReference = 955AAB112C863BCD00FE577C /* rcloneBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		955AAB1A2C863BCD00FE577C /* rcloneBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 955AAB2B2C863BCD00FE577C /* Build configuration list for PBXNativeTarget "rcloneBarUITests" */;
+			buildPhases = (
+				955AAB172C863BCD00FE577C /* Sources */,
+				955AAB182C863BCD00FE577C /* Frameworks */,
+				955AAB192C863BCD00FE577C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				955AAB1D2C863BCD00FE577C /* PBXTargetDependency */,
+			);
+			name = rcloneBarUITests;
+			productName = rcloneBarUITests;
+			productReference = 955AAB1B2C863BCD00FE577C /* rcloneBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		955AAAF82C863BCC00FE577C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					955AAAFF2C863BCC00FE577C = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					955AAB102C863BCD00FE577C = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 955AAAFF2C863BCC00FE577C;
+					};
+					955AAB1A2C863BCD00FE577C = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 955AAAFF2C863BCC00FE577C;
+					};
+				};
+			};
+			buildConfigurationList = 955AAAFB2C863BCC00FE577C /* Build configuration list for PBXProject "rcloneBar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 955AAAF72C863BCC00FE577C;
+			productRefGroup = 955AAB012C863BCC00FE577C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				955AAAFF2C863BCC00FE577C /* rcloneBar */,
+				955AAB102C863BCD00FE577C /* rcloneBarTests */,
+				955AAB1A2C863BCD00FE577C /* rcloneBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		955AAAFE2C863BCC00FE577C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				955AAB0B2C863BCD00FE577C /* Preview Assets.xcassets in Resources */,
+				955AAB082C863BCD00FE577C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		955AAB0F2C863BCD00FE577C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		955AAB192C863BCD00FE577C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		955AAAFC2C863BCC00FE577C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				955AAB062C863BCC00FE577C /* ContentView.swift in Sources */,
+				955AAB042C863BCC00FE577C /* rcloneBarApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		955AAB0D2C863BCD00FE577C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				955AAB162C863BCD00FE577C /* rcloneBarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		955AAB172C863BCD00FE577C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				955AAB202C863BCD00FE577C /* rcloneBarUITests.swift in Sources */,
+				955AAB222C863BCD00FE577C /* rcloneBarUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		955AAB132C863BCD00FE577C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 955AAAFF2C863BCC00FE577C /* rcloneBar */;
+			targetProxy = 955AAB122C863BCD00FE577C /* PBXContainerItemProxy */;
+		};
+		955AAB1D2C863BCD00FE577C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 955AAAFF2C863BCC00FE577C /* rcloneBar */;
+			targetProxy = 955AAB1C2C863BCD00FE577C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		955AAB232C863BCD00FE577C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		955AAB242C863BCD00FE577C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		955AAB262C863BCD00FE577C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = rcloneBar/rcloneBar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"rcloneBar/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = at.stjomd.rcloneBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		955AAB272C863BCD00FE577C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = rcloneBar/rcloneBar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"rcloneBar/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = at.stjomd.rcloneBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		955AAB292C863BCD00FE577C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = at.stjomd.rcloneBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rcloneBar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/rcloneBar";
+			};
+			name = Debug;
+		};
+		955AAB2A2C863BCD00FE577C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = at.stjomd.rcloneBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rcloneBar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/rcloneBar";
+			};
+			name = Release;
+		};
+		955AAB2C2C863BCD00FE577C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = at.stjomd.rcloneBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = rcloneBar;
+			};
+			name = Debug;
+		};
+		955AAB2D2C863BCD00FE577C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = at.stjomd.rcloneBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = rcloneBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		955AAAFB2C863BCC00FE577C /* Build configuration list for PBXProject "rcloneBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				955AAB232C863BCD00FE577C /* Debug */,
+				955AAB242C863BCD00FE577C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		955AAB252C863BCD00FE577C /* Build configuration list for PBXNativeTarget "rcloneBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				955AAB262C863BCD00FE577C /* Debug */,
+				955AAB272C863BCD00FE577C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		955AAB282C863BCD00FE577C /* Build configuration list for PBXNativeTarget "rcloneBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				955AAB292C863BCD00FE577C /* Debug */,
+				955AAB2A2C863BCD00FE577C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		955AAB2B2C863BCD00FE577C /* Build configuration list for PBXNativeTarget "rcloneBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				955AAB2C2C863BCD00FE577C /* Debug */,
+				955AAB2D2C863BCD00FE577C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 955AAAF82C863BCC00FE577C /* Project object */;
+}
