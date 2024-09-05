@@ -8,17 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    var action: () -> Void
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        Button(action: action, label: {
+            Text("Close")
+        })
+        .padding(10)
     }
 }
 
 #Preview {
-    ContentView()
+    ContentView(action: {})
 }

@@ -14,6 +14,7 @@
 		955AAB162C863BCD00FE577C /* rcloneBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955AAB152C863BCD00FE577C /* rcloneBarTests.swift */; };
 		955AAB202C863BCD00FE577C /* rcloneBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955AAB1F2C863BCD00FE577C /* rcloneBarUITests.swift */; };
 		955AAB222C863BCD00FE577C /* rcloneBarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955AAB212C863BCD00FE577C /* rcloneBarUITestsLaunchTests.swift */; };
+		957D65972C8A32140067BC48 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 957D65962C8A32140067BC48 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		955AAB1B2C863BCD00FE577C /* rcloneBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rcloneBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		955AAB1F2C863BCD00FE577C /* rcloneBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rcloneBarUITests.swift; sourceTree = "<group>"; };
 		955AAB212C863BCD00FE577C /* rcloneBarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rcloneBarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		957D65962C8A32140067BC48 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				955AAB032C863BCC00FE577C /* rcloneBarApp.swift */,
+				957D65962C8A32140067BC48 /* .gitignore */,
 				955AAB052C863BCC00FE577C /* ContentView.swift */,
 				955AAB072C863BCD00FE577C /* Assets.xcassets */,
 				955AAB0C2C863BCD00FE577C /* rcloneBar.entitlements */,
@@ -234,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				955AAB0B2C863BCD00FE577C /* Preview Assets.xcassets in Resources */,
+				957D65972C8A32140067BC48 /* .gitignore in Resources */,
 				955AAB082C863BCD00FE577C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

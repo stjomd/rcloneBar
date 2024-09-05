@@ -10,8 +10,9 @@ import SwiftUI
 @main
 struct rcloneBarApp: App {
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+        MenuBarExtra("UtilityApp", systemImage: "externaldrive") {
+            ContentView(action: { NSApplication.shared.terminate(self) })
         }
+        .menuBarExtraStyle(.window)
     }
 }
